@@ -1,0 +1,11 @@
+/home/gic-hour-samnang/oslab-work/lab1/task2_files
+This is file candle
+This is file panda
+candle.txt
+candle_copy.txt
+panda.txt
+candle.txt
+candle_copy.txt
+panda_renamed.txt
+candle.txt
+panda_renamed.txt
