@@ -1,0 +1,12 @@
+.:
+total 8
+18875443 drwxrwxr-x 2 gic-hour-samnang gic-hour-samnang 4096 Nov  8 18:08 links
+18875444 -rw-rw-r-- 2 gic-hour-samnang gic-hour-samnang   24 Nov  8 18:08 river-final.txt
+
+links:
+total 4
+18875445 lrwxrwxrwx 1 gic-hour-samnang gic-hour-samnang 18 Nov  8 18:08 first.txt -> ../river-final.txt
+18875444 -rw-rw-r-- 2 gic-hour-samnang gic-hour-samnang 24 Nov  8 18:08 hard.txt
+18875446 lrwxrwxrwx 1 gic-hour-samnang gic-hour-samnang  9 Nov  8 18:08 second.txt -> first.txt
+checkpoint silver river
+checkpoint silver river

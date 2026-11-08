@@ -1,0 +1,9 @@
+
+=== NEW FILE USING THE OLD NAME ===
+18752072 -rw-rw-r-- 2 gic-hour-samnang gic-hour-samnang 12 Nov  6 07:57 lemon-final.txt
+18752072 -rw-rw-r-- 2 gic-hour-samnang gic-hour-samnang 12 Nov  6 07:57 lemon-hard.txt
+18752291 lrwxrwxrwx 1 gic-hour-samnang gic-hour-samnang  9 Nov  6 08:24 lemon-soft.txt -> lemon.txt
+18752312 -rw-rw-r-- 1 gic-hour-samnang gic-hour-samnang 12 Nov  6 08:31 lemon.txt
+lemon.txt: version 514
+hard: version 465
+soft: version 514

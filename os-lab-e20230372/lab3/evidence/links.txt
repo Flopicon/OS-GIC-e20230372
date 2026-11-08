@@ -1,0 +1,27 @@
+
+=== BEFORE RENAME ===
+18752072 -rw-rw-r-- 2 gic-hour-samnang gic-hour-samnang 12 Nov  6 07:57 lemon-hard.txt
+18752291 lrwxrwxrwx 1 gic-hour-samnang gic-hour-samnang  9 Nov  6 08:24 lemon-soft.txt -> lemon.txt
+18752072 -rw-rw-r-- 2 gic-hour-samnang gic-hour-samnang 12 Nov  6 07:57 lemon.txt
+hard: version 465
+soft: version 465
+stored target: lemon.txt
+
+=== AFTER RENAME, BEFORE REPAIR ===
+18752072 -rw-rw-r-- 2 gic-hour-samnang gic-hour-samnang 12 Nov  6 07:57 lemon-final.txt
+18752072 -rw-rw-r-- 2 gic-hour-samnang gic-hour-samnang 12 Nov  6 07:57 lemon-hard.txt
+18752291 lrwxrwxrwx 1 gic-hour-samnang gic-hour-samnang  9 Nov  6 08:24 lemon-soft.txt -> lemon.txt
+hard: version 465
+stored target: lemon.txt
+soft: cat: lemon-soft.txt: No such file or directory
+
+=== AFTER REPAIR ===
+18752072 -rw-rw-r-- 2 gic-hour-samnang gic-hour-samnang 12 Nov  6 07:57 lemon-final.txt
+18752072 -rw-rw-r-- 2 gic-hour-samnang gic-hour-samnang 12 Nov  6 07:57 lemon-hard.txt
+18752291 lrwxrwxrwx 1 gic-hour-samnang gic-hour-samnang 15 Nov  6 08:41 lemon-soft.txt -> lemon-final.txt
+stored target: lemon-final.txt
+hard: version 465
+soft: version 465
+
+Decision: I used a relative target because it is resolved from the directory containing the symbolic link. If I used an absolute path and moved the whole folder, the link could break because it would still point to the original location.
+

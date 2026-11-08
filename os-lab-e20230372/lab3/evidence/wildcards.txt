@@ -1,0 +1,6 @@
+<notes/lemon12.txt>
+<notes/lemon1.txt>
+<notes/lemon2.txt>
+<notes/lemon1.txt>
+<notes/lemon2.txt>
+<notes/*.txt>
