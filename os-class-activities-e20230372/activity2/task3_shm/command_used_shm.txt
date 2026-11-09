@@ -1,0 +1,20 @@
+  236  gcc -o forkchild forkchild.c
+  237  ./forkchild > result_forkchild.txt 2>&1
+  238  cat result_forkchild.txt
+  239  history | tail -n 20 > command_used_forkchild.txt
+  240  ls -l
+  241  cat result_forkchild.txt
+  242  cd ..
+  243  cd task2
+  244  explorer.exe .
+  245  cd ~/OS-GIC-e20230372/os-class-activities-e20230372/activity2/task3_shm
+  246  pwd
+  247  nano shm-producer.c
+  248  nano shm-consumer.c
+  249  gcc -o shm-producer shm-producer.c -lrt
+  250  gcc -o shm-consumer shm-consumer.c -lrt
+  251  ./shm-producer
+  252  ./shm-consumer > result-shm-ipc.txt
+  253  cat result-shm-ipc.txt
+  254  ./shm-consumer
+  255  history | tail -n 20 > command_used_shm.txt

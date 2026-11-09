@@ -1,0 +1,14 @@
+Parent process (PID: 10195) — creating child...
+Child process (PID: 10196, Parent PID: 10195)
+Child: sleeping 30s — observe the process tree now!
+Child: now executing 'ls -la'...
+total 40
+drwxr-xr-x 2 samnang samnang  4096 Nov  9 18:26 .
+drwxr-xr-x 7 samnang samnang  4096 Nov  9 18:05 ..
+-rw-r--r-- 1 samnang samnang   531 Nov  9 18:22 command_used_forkchild.txt
+-rwxr-xr-x 1 samnang samnang 16480 Nov  9 18:26 forkchild
+-rw-r--r-- 1 samnang samnang  1037 Nov  9 18:26 forkchild.c
+-rw-r--r-- 1 samnang samnang   183 Nov  9 18:26 result_forkchild.txt
+Parent: waiting for child (PID: 10196) to finish...
+Parent: child exited with status 0
+Parent: done.

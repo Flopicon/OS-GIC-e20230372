@@ -1,0 +1,20 @@
+  216  tree
+  217  cd..
+  218  cd ..
+  219  ls
+  220  cd screenshots/
+  221  ls
+  222  ./forkchild
+  223  ~/OS-GIC-e20230372/os-class-activities-e20230372/activity2/task1
+  224  cd ..
+  225  cd task
+  226  cd task1
+  227  ./forkchild
+  228  history | tail -n 20 > command_used_forkchild.txt
+  229  cat command_used_forkchild.txt
+  230  ls -l
+  231  nano forkchild.c
+  232  gcc -o forkchild forkchild.c
+  233  ./forkchild > result_forkchild.txt 2>&1
+  234  cat result_forkchild.txt
+  235  history | tail -n 20 > command_used_forkchild.txt
