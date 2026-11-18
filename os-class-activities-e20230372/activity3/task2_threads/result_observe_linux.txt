@@ -1,0 +1,34 @@
+Linux Thread Observation
+========================
+
+Process threads (ps -T):
+    PID    SPID TTY          TIME CMD
+   3161    3161 pts/0    00:00:00 threads_observe
+   3161    3162 pts/0    00:00:00 threads_observe
+   3161    3163 pts/0    00:00:00 threads_observe
+   3161    3164 pts/0    00:00:00 threads_observe
+   3161    3165 pts/0    00:00:00 threads_observe
+
+Thread information (/proc):
+Process PID: 6117
+
+Thread IDs:
+6117
+6118
+6119
+6120
+6121
+
+Thread count:
+Threads:	5
+
+Kernel thread observation:
+Environment:
+wsl
+
+Process with PID 2:
+    PID    PPID COMMAND
+      2       1 init-systemd(Ub
+
+Kernel thread search:
+No matching kernel threads visible
