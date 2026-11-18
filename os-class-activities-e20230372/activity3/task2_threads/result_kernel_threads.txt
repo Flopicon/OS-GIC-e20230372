@@ -1,0 +1,9 @@
+Environment:
+wsl
+
+Process with PID 2:
+    PID    PPID COMMAND
+      2       1 init-systemd(Ub
+
+Kernel thread search:
+No matching kernel threads visible

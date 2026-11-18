@@ -1,0 +1,6 @@
+    PID    SPID TTY          TIME CMD
+   3161    3161 pts/0    00:00:00 threads_observe
+   3161    3162 pts/0    00:00:00 threads_observe
+   3161    3163 pts/0    00:00:00 threads_observe
+   3161    3164 pts/0    00:00:00 threads_observe
+   3161    3165 pts/0    00:00:00 threads_observe

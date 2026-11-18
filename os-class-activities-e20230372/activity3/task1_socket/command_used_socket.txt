@@ -1,0 +1,20 @@
+  304  gcc --version
+  305  java --version
+  306  javac --version
+  307  htop --version
+  308  sudo apt update
+  309  sudo apt install default-jdk htop -y
+  310  java --version
+  311  javac --version
+  312  htop --version
+  313  cd ~/OS-GIC-e20230372/os-class-activities-e20230372/activity3/task1_socket
+  314  nano server.c
+  315  gcc -o server server.c
+  316  ./server
+  317  ./server > result_server.txt 2>&1 &
+  318  sleep 1
+  319  ./client > result_client.txt 2>&1
+  320  wait
+  321  cat result_server.txt result_client.txt > result_socket.txt
+  322  cat result_socket.txt
+  323  history | tail -n 20 > command_used_socket.txt

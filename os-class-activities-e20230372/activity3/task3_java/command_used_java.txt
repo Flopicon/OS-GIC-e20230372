@@ -1,0 +1,25 @@
+  339  for i in {1..5}; do     ./threads_mutex | grep -E "Expected counter|Actual counter"; done
+  340  cat result_threads.txt
+  341  cp threads.c threads_nojoin.c
+  342  nano threads_nojoin.c
+  343  gcc -o threads_nojoin threads_nojoin.c -pthread
+  344  ./threads_nojoin
+  345  history | tail -n 20 > command_used_threads.txt
+  346  ls -l
+  347  cd ..
+  348  nano README.md
+  349  ls -l screenshots/task2_threads_output.png
+  350  cd ~/OS-GIC-e20230372/os-class-activities-e20230372/activity3/task3_java
+  351  nano ThreadDemo.java
+  352  javac ThreadDemo.java
+  353  java ThreadDemo > result_thread_demo.txt 2>&1
+  354  cat result_thread_demo.txt
+  355  nano RunnableDemo.java
+  356  javac RunnableDemo.java
+  357  java RunnableDemo > result_runnable_demo.txt 2>&1
+  358  cat result_runnable_demo.txt
+  359  nano PoolDemo.java
+  360  javac PoolDemo.java
+  361  java PoolDemo > result_pool_demo.txt 2>&1
+  362  cat result_pool_demo.txt
+  363  history | tail -n 25 > command_used_java.txt
